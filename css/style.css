@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Consume what space is available */
+.sly-wrap{
+	width:100%;
+}
+/* Center the frame */
+.sly-frame{
+	margin:auto;
+}
+.sly-slidee{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.sly-panel{
+	float:left;
+	overflow:hidden;
+	margin:0px 20px 0px 20px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color:#FFF;
+	padding:0px 10px 0px 10px;
+}
+.sly-panel-title{
+	padding:0px;
+	margin:0px;
+	width:100%;
+	text-align:center;
+}
+/* scroll bar not implemented yet */
+.sly-scroller{
+	width:100%;
+	height:10px;
+	background-color:#06F;
+}
+.sly-scroller-handle{
+	margin-top:30px;
+	width:60px;
+	height:10px;
+	background-color:#3C6;
+}
+/* Colours for the controls are stored in a jQuery data attribute in .sly-controls */
+.sly-controls{
+	width:100%;
+	margin:4px 0px 4px 0px;
+}
+.sly-controls ul{
+	margin: 5px;
+	padding: 0px;
+	list-style-type: none;
+	text-align: center;
+}
+.sly-controls ul li{
+	float:left;
+	margin:2px;
+}
+.sly-controls ul li a{
+	min-height:40px;
+	text-decoration: none;
+	padding: .2em 1em;
+	color: #fff;
+}
